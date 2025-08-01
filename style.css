@@ -250,7 +250,7 @@ body.denied {
   #pauseBtn, #startBtn, .restart-button {
     padding: 10px 15px;
     font-size: 16px;
-    font-family: 'Comic Neue', cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
   }
 
   #startBtn {
@@ -265,24 +265,24 @@ body.denied {
 
   #gameText {
     font-size: 50px;
-    font-family: 'Comic Neue', cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
   }
 
   .game-over {
     font-size: 32px;
-    font-family: 'Comic Neue', cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
   }
 
   .modal-content {
     width: 90%;
     margin-top: 40%;
-    font-family: 'Comic Neue', cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
   }
 
   .modal-content input {
     width: 90%;
     font-size: 16px;
-    font-family: 'Comic Neue', cursive, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
   }
 
   .modal-content button {
