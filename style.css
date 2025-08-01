@@ -223,13 +223,13 @@ body.denied {
   }
 
   .excalibur {
-    width: 300px;
-    right: 10px;
+    width: 100px;
+    right: 5px;
   }
 
   .logo {
-    width: 200px;
-    top: 20px;
+    width: 150px;
+    top: 23px;
   }
 
   .obstacle {
