@@ -223,13 +223,13 @@ body.denied {
   }
 
   .excalibur {
-    width: 100px;
+    width: 200px;
     right: 5px;
   }
 
   .logo {
     width: 150px;
-    top: 23px;
+    top: 40px;
   }
 
   .obstacle {
@@ -250,6 +250,7 @@ body.denied {
   #pauseBtn, #startBtn, .restart-button {
     padding: 10px 15px;
     font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   #startBtn {
@@ -264,20 +265,24 @@ body.denied {
 
   #gameText {
     font-size: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   .game-over {
     font-size: 32px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   .modal-content {
     width: 90%;
     margin-top: 40%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   .modal-content input {
     width: 90%;
     font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   .modal-content button {
