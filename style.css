@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html, body {
+  height: 100%;
+}
 body {
   margin: 0;
   background: #6dc5e0;
@@ -55,9 +58,9 @@ body.denied {
 }
 .score {
   position: absolute;
+  font-size: 2vw;
   top: 10px;
   left: 10px;
-  font-size: 30px;
   font-weight: bold;
   color: rgb(0, 174, 255);
 }
@@ -65,8 +68,8 @@ body.denied {
   position: absolute;
   top: 20px;
   right: 20px;
-  padding: 13px 18px;
-  font-size: 18px;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
   cursor: pointer;
   border-radius: 20px;
   background-color: #333;
@@ -211,4 +214,73 @@ body.denied {
 
 .modal-content button:hover {
   background-color: rgb(0, 174, 255);
+}
+
+@media (max-width: 768px) {
+  .character {
+    width: 100px;
+    left: 10px;
+  }
+
+  .excalibur {
+    width: 300px;
+    right: 10px;
+  }
+
+  .logo {
+    width: 200px;
+    top: 20px;
+  }
+
+  .obstacle {
+    width: 80px;
+    right: -40px;
+  }
+
+  .exc {
+    width: 120px;
+    left: 70%;
+    top: 70%;
+  }
+
+  .score {
+    font-size: 20px;
+  }
+
+  #pauseBtn, #startBtn, .restart-button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  #startBtn {
+    top: 50%;
+    right: 35%;
+  }
+
+  .red, .eth, .eth1 {
+    width: 50px;
+    top: 20px;
+  }
+
+  #gameText {
+    font-size: 50px;
+  }
+
+  .game-over {
+    font-size: 32px;
+  }
+
+  .modal-content {
+    width: 90%;
+    margin-top: 40%;
+  }
+
+  .modal-content input {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .modal-content button {
+    font-size: 16px;
+  }
 }
