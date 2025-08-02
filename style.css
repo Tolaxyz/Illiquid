@@ -218,8 +218,8 @@ body.denied {
 
 @media (max-width: 768px) {
   .character {
-    width: 100px;
-    left: 10px;
+    display: none;
+
   }
 
   .excalibur {
