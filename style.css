@@ -260,7 +260,7 @@ body.denied {
 
   .red, .eth, .eth1 {
     width: 50px;
-    top: 20px;
+    top: 30%;
   }
 
   #gameText {
