@@ -218,13 +218,12 @@ body.denied {
 
 @media (max-width: 768px) {
   .character {
-    display: none;
-
+     width: 100px;
+    left: 10px;
   }
 
   .excalibur {
-    width: 200px;
-    right: 0px;
+    display: none;
   }
 
   .logo {
