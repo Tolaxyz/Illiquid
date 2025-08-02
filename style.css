@@ -218,8 +218,10 @@ body.denied {
 
 @media (max-width: 768px) {
   .character {
-     width: 100px;
-    left: 10px;
+      position: absolute;
+  width: 100px;
+  bottom: 0;
+ 
   }
 
   .excalibur {
@@ -232,8 +234,10 @@ body.denied {
   }
 
   .obstacle {
-    width: 80px;
-    right: -40px;
+    position: absolute;
+  width: 80px;
+  bottom: 30px;
+  right: -30px;
   }
 
   .exc {
